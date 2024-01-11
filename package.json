@@ -12,6 +12,9 @@
     "prestart": "npm run build",
     "start": "node ./bin/nwb.js"
   },
+  "publishConfig": {
+    "@Manim-Finance:registry": "https://npm.pkg.github.com"
+  },  
   "bin": {
     "nwb": "./bin/nwb.js"
   },
