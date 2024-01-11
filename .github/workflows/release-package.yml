@@ -18,7 +18,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@manim-finance"
       - run: |
-          echo registry=https://registry.npmjs.org/" >> .npmrc
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
           echo "@manim-finance:registry=https://npm.pkg.github.com/" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GHUB_TOKEN }}" >> .npmrc
           echo "always-auth=true" >> .npmrc
