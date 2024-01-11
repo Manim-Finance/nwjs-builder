@@ -8,7 +8,7 @@ const temp = require('temp').track();
 
 const { ParseNwBuilderVersion } = require('./nwbuild');
 
-const NWD = require('nwjs-download');
+const NWD = require('@manim-finance/nwjs-download');
 
 const Flow = require('node-async-flow');
 

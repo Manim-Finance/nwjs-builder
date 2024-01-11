@@ -1,6 +1,6 @@
 {
   "name": "@manim-finance/nwjs-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "publishConfig": {
     "@manim-finance:registry": "https://npm.pkg.github.com"
-  },  
+  },
   "bin": {
     "nwb": "./bin/nwb.js"
   },
@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/Manim-Finance/nwjs-builder#readme",
   "dependencies": {
+    "@manim-finance/nwjs-download": "^1.0.0",
     "archiver": "^1.0.0",
     "babel-polyfill": "^6.9.1",
     "commander": "^2.9.0",
@@ -42,7 +43,6 @@
     "glob": "^7.0.3",
     "node-async-flow": "^1.3.0",
     "node-resourcehacker": "^1.0.0",
-    "nwjs-download": "^1.4.6",
     "os-homedir": "^1.0.1",
     "plist": "^1.2.0",
     "rcedit": "0.5.0",

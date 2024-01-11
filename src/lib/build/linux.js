@@ -14,7 +14,7 @@ const glob = require('glob');
 
 const Flow = require('node-async-flow');
 
-const NWD = require('nwjs-download');
+const NWD = require('@manim-finance/nwjs-download');
 
 const NWB = require('../../');
 

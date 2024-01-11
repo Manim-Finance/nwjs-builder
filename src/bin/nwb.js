@@ -4,7 +4,7 @@
 
 const commander = require('commander');
 
-const NWD = require('nwjs-download');
+const NWD = require('@manim-finance/nwjs-download');
 
 const NWB = require('../');
 

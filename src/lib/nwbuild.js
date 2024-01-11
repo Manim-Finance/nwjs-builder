@@ -1,7 +1,7 @@
 
 'use strict';
 
-const NWD = require('nwjs-download');
+const NWD = require('@manim-finance/nwjs-download');
 
 const Flow = require('node-async-flow');
 
