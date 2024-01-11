@@ -1,6 +1,6 @@
 {
   "name": "@manim-finance/nwjs-builder",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "start": "node ./bin/nwb.js"
   },
   "publishConfig": {
-    "@Manim-Finance:registry": "https://npm.pkg.github.com"
+    "@manim-finance:registry": "https://npm.pkg.github.com"
   },  
   "bin": {
     "nwb": "./bin/nwb.js"
