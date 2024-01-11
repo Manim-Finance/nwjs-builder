@@ -1,5 +1,5 @@
 {
-  "name": "@manimfinance/nwjs-builder",
+  "name": "@manim-finance/nwjs-builder",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
