@@ -58,6 +58,9 @@ const NwBuilderBuild = (path, options, callback) => {
                 case 'osx64':
                     this.targets.push(['osx', 'x64']);
                     break;
+                case 'osxarm64':
+                    this.targets.push(['osx', 'arm64']);
+                    break;
                 default:
                     console.warn('WARN_PLATFORM_UNRECOGNIZED');
                     console.warn('platform:', platform);
