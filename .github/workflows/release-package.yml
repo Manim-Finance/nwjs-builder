@@ -19,8 +19,10 @@ jobs:
           scope: "@manim-finance"
       - run: npm ci
       - run: |
-          echo "@manim-finance:registry=https://npm.pkg.github.com" >> .npmrc
+          echo registry=https://registry.npmjs.org/" >> .npmrc
+          echo "@manim-finance:registry=https://npm.pkg.github.com/" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GHUB_TOKEN }}" >> .npmrc
+          echo "always-auth=true" >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GHUB_TOKEN }}
