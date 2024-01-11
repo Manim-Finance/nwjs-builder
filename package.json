@@ -1,6 +1,6 @@
 {
   "name": "@manimfinance/nwjs-builder",
-  "version": "1.14.0",
+  "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
