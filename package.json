@@ -1,6 +1,6 @@
 {
   "name": "@manim-finance/nwjs-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,18 +20,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evshiron/nwjs-builder.git"
+    "url": "git+https://github.com/Manim-Finance/nwjs-builder.git"
   },
   "keywords": [
     "nwjs",
     "builder"
   ],
-  "author": "evshiron",
+  "author": "bedirhanmanim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/evshiron/nwjs-builder/issues"
+    "url": "https://github.com/Manim-Finance/nwjs-builder/issues"
   },
-  "homepage": "https://github.com/evshiron/nwjs-builder#readme",
+  "homepage": "https://github.com/Manim-Finance/nwjs-builder#readme",
   "dependencies": {
     "archiver": "^1.0.0",
     "babel-polyfill": "^6.9.1",
