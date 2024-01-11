@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/Manim-Finance/nwjs-builder#readme",
   "dependencies": {
-    "@manim-finance/nwjs-download": "^1.0.0",
+    "@manim-finance/nwjs-download": "^1.0.1",
     "archiver": "^1.0.0",
     "babel-polyfill": "^6.9.1",
     "commander": "^2.9.0",
