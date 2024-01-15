@@ -1,6 +1,6 @@
 {
   "name": "@manim-finance/nwjs-builder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -33,12 +33,12 @@
   },
   "homepage": "https://github.com/Manim-Finance/nwjs-builder#readme",
   "dependencies": {
+    "@manim-finance/decompress-zip": "^1.0.0",
     "@manim-finance/nwjs-download": "^1.0.1",
     "archiver": "^1.0.0",
     "babel-polyfill": "^6.9.1",
     "commander": "^2.9.0",
     "debug": "^2.2.0",
-    "decompress-zip": "^0.3.3",
     "fs-extra": "^0.30.0",
     "glob": "^7.0.3",
     "node-async-flow": "^1.3.0",

@@ -8,7 +8,7 @@ const { readdir, lstat, createWriteStream, createReadStream } = require('fs');
 
 const { createGunzip } = require('zlib');
 const tar = require('tar-fs');
-const DecompressZip = require('decompress-zip');
+const DecompressZip = require('@manim-finance/decompress-zip');
 const archiver = require('archiver');
 
 const Flow = require('node-async-flow');
